@@ -1,4 +1,13 @@
 {
+  "targets": {
+    "connecting-vision": {
+      "hosting": {
+        "connecting-vision": [
+          "connecting-vision"
+        ]
+      }
+    }
+  },
   "projects": {
     "default": "connecting-vision"
   }
