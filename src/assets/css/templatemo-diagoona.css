@@ -15,9 +15,19 @@ body {
     background-color: #2C353C;
 }
 
-a { 
-    transition: all 0.3s ease; 
+a {
+    transition: all 0.3s ease;
     text-decoration: none;
+}
+
+button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }
 
 ul { padding: 0; }
@@ -80,10 +90,10 @@ p { line-height: 1.9; }
     height: 100%;
 }
 
-.tm-bg-right { background-color: rgba(0,0,0,0.5); }
+.tm-bg-right { background-color: rgba(0,0,0,0.8); }
 
 .tm-bg-left {
-    border-right: 230px solid rgba(0,0,0,0.5);
+    border-right: 230px solid rgba(0,0,0,0.8);
     border-top: 100vh solid transparent;
 }
 
@@ -133,12 +143,12 @@ p { line-height: 1.9; }
 }
 
 .tm-content {
-    max-width: 660px;
+    max-width: 880px;
     margin-top: 50px;
     padding-right: 20px;
 }
 
-.tm-about { max-width: 525px; }
+.tm-about { max-width: 880px; }
 
 ::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -151,7 +161,7 @@ p { line-height: 1.9; }
     box-shadow: 0 0 1px rgba(255,255,255,.8);
 }
 
-.tm-content-title { font-size: 1.5rem; }
+.tm-content-title { font-size: 2rem; }
 hr { border-top: 1px solid white; }
 
 .btn {
@@ -190,7 +200,7 @@ hr { border-top: 1px solid white; }
 }
 
 /* Service */ 
-.tm-service-text { max-width: 365px; }
+.tm-service-text { max-width: 660px; }
 .tm-service-img { margin-right: 25px; }
 .tm-service-img-r { margin-left: 25px; }
 
@@ -220,10 +230,10 @@ textarea {
 }
 
 .mb-85 { margin-bottom: 20px; }
-.tm-contact-main { max-width: 690px; }
+.tm-contact-main { max-width: 880px; }
 
 .tm-contact {
-    max-width: 420px;
+    max-width: 880px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -337,4 +347,12 @@ textarea {
     .tm-service-text { margin-top: 20px; }
     .tm-service-img { margin-right: 0; }
     .tm-service-img-r { margin-left: 0; }
+}
+
+.logo {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 15%;
+
 }
