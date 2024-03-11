@@ -1,5 +1,5 @@
 const initBg = (autoplay = true) => {
-    const bgImgsNames = ['diagoona-bg-1.jpg', 'diagoona-bg-2.jpg', 'diagoona-bg-3.jpg'];
+    const bgImgsNames = ['715066_b08af277a1b948b49c5f45486562bcb6~mv2.jpg','valerie-v-zSrksQgp4W0-unsplash.jpg','scott-blake-M5wPcXukAVM-unsplash.jpg','jared-brashier-duNHkmSkW6M-unsplash.jpg','max-bottinger-Gup8MCvSsf0-unsplash.jpg','FMB-Sketch.jpg','scott-graham-OQMZwNd3ThU-unsplash.jpg'];
     const bgImgs = bgImgsNames.map(img => "img/" + img);
 
     $.backstretch(bgImgs, {duration: 4000, fade: 500});
