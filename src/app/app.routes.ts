@@ -10,6 +10,6 @@ export const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
-  { path: '',   redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
-  { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
+  { path: '',   component: HomeComponent  }, // redirect to `home`
+  { path: '**', component: HomeComponent },  
 ];
