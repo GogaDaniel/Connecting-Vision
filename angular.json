@@ -16,18 +16,20 @@
             "outputPath": "dist/connecting-vision",
             "index": "src/index.html",
             "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
             "styles": [
-              "src/styles.css"
+              "src/assets/css/bootstrap.min.css",
+              "src/assets/css/templatemo-diagoona.css",
+              "src/assets/fontawesome/css/all.min.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "src/assets/js/bootstrap.min.js",
+              "src/assets/js/jquery-3.4.1.min.js",
+              "src/assets/js/jquery.backstretch.min.js",
+              "src/assets/js/templatemo-script.js"
+            ],
+            "assets": ["src/assets", "src/favicon.ico"],
             "server": "src/main.server.ts",
             "prerender": true,
             "ssr": {
@@ -79,18 +81,10 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         },
