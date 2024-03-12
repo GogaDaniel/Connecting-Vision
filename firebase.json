@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "src",
+    "public": "dist/connecting-vision",
     "ignore": [
       "firebase.json",
       "**/.*",
