@@ -32,16 +32,7 @@
             "assets": [
               "src/assets",
               "src/favicon.ico",
-              "src/assets/img",
-              "src/assets/img/fundalBlue_jpeg.jpg",
-              "src/assets/img/klipartz.com (28).png",
-              "src/assets/img/715066_b08af277a1b948b49c5f45486562bcb6~mv2.jpg",
-              "src/assets/img/valerie-v-zSrksQgp4W0-unsplash.jpg",
-              "src/assets/img/scott-blake-M5wPcXukAVM-unsplash.jpg",
-              "src/assets/img/jared-brashier-duNHkmSkW6M-unsplash.jpg",
-              "src/assets/img/max-bottinger-Gup8MCvSsf0-unsplash.jpg",
-              "src/assets/img/FMB-Sketch.jpg",
-              "src/assets/img/scott-graham-OQMZwNd3ThU-unsplash.jpg"
+              "src/assets/img"
             ],
             "server": "src/main.server.ts",
             "prerender": true,
