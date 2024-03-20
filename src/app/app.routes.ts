@@ -21,7 +21,7 @@ export const routes: Routes = [
   //     priority: '1.0',
   //   },
   // },
+  // { path: '', redirectTo: '/home', pathMatch: 'full' }, // redirect to `home`
   { path: '', component: HomeComponent }, // redirect to `home`
   { path: '**', component: HomeComponent },
 ];
-
