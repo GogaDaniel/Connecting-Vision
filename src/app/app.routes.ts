@@ -7,10 +7,10 @@ import { ContactComponent } from './content/contact/contact.component';
 // import { SitemapComponent } from './sitemap/sitemap.component';
 
 export const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'services', component: ServicesComponent },
-  { path: 'contact', component: ContactComponent },
+  { path: 'home', component: HomeComponent, redirectTo:"" },
+  { path: 'about', component: AboutComponent , redirectTo:""},
+  { path: 'services', component: ServicesComponent , redirectTo:""},
+  { path: 'contact', component: ContactComponent, redirectTo:"" },
   { path: '', component: HomeComponent }, // redirect to `home`
-  { path: '**', redirectTo: '/', pathMatch: 'full' },
+  { path: '**', redirectTo: '', pathMatch: 'full' },
 ];
