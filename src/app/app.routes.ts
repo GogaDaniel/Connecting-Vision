@@ -11,17 +11,6 @@ export const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'services', component: ServicesComponent },
   { path: 'contact', component: ContactComponent },
-  // {
-  //   path: 'sitemap',
-  //   component: SitemapComponent,
-  //   data: {
-  //     loc: '/',
-  //     lastmod: '2022-04-07',
-  //     changefreq: 'daily',
-  //     priority: '1.0',
-  //   },
-  // },
-  // { path: '', redirectTo: '/home', pathMatch: 'full' }, // redirect to `home`
   { path: '', component: HomeComponent }, // redirect to `home`
-  { path: '**', component: HomeComponent },
+  { path: '**', redirectTo: '/', pathMatch: 'full' },
 ];
